@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<object>
+    <name>Console</name>
+    <id>Console</id>
+    <componentType>KernelModule</componentType>
+    <description>
+        <para>The global Console object allows you to print messages of different importance to a log.</para>
+    </description>
+    <syntax>Console.log("This is a program message."); // print a program message
+Console.debug("A debug message."); // print a debug message</syntax>
+    <properties>
+    </properties>
+    <methods>
+        <method>
+            <name>log()</name>
+            <description>
+                <para>Print the given message of normal severity.</para>
+            </description>
+            <returnType>void</returnType>
+            <parameters>
+                <parameter>
+                    <name>message</name>
+                    <type>string</type>
+                    <info></info>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>debug()</name>
+            <description>
+                <para>Print the given debug message.</para>
+            </description>
+            <returnType>void</returnType>
+            <parameters>
+                <parameter>
+                    <name>message</name>
+                    <type>string</type>
+                    <info></info>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>error()</name>
+            <description>
+                <para>Print the given error message of high severity.</para>
+            </description>
+            <returnType>void</returnType>
+            <parameters>
+                <parameter>
+                    <name>message</name>
+                    <type>string</type>
+                    <info></info>
+                </parameter>
+            </parameters>
+        </method>
+    </methods>
+</object>

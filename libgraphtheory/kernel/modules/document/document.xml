@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<object>
+<name>Document</name>
+<id>Document</id>
+<componentType>Document</componentType>
+<description>
+<para>
+The document object provides access to all elements.
+</para>
+</description>
+<syntax>
+</syntax>
+<properties>
+</properties>
+<methods>
+<method>
+    <name>node(id)</name>
+    <description>
+        <para>Return the node with specified ID.</para>
+    </description>
+    <returnType>Node</returnType>
+    <parameters>
+        <parameter>
+            <name>id</name>
+            <type>int</type>
+            <info>Identifier of a node.</info>
+        </parameter>
+    </parameters>
+</method>
+<method>
+    <name>nodes()</name>
+    <description>
+        <para>Return a list of all nodes.</para>
+    </description>
+    <returnType>array</returnType>
+    <parameters>
+    </parameters>
+</method>
+<method>
+    <name>nodes(type)</name>
+    <description>
+        <para>Return a list all nodes of specified type.</para>
+    </description>
+    <returnType>array</returnType>
+    <parameters>
+        <parameter>
+            <name>type</name>
+            <type>int</type>
+            <info>Identifier of a node type.</info>
+        </parameter>
+    </parameters>
+</method>
+<method>
+    <name>edges()</name>
+    <description>
+        <para>Return a list of all edges.</para>
+    </description>
+    <returnType>array</returnType>
+    <parameters>
+    </parameters>
+</method>
+<method>
+    <name>edges(type)</name>
+    <description>
+        <para>Return a list all edges of specified type.</para>
+    </description>
+    <returnType>array</returnType>
+    <parameters>
+        <parameter>
+            <name>type</name>
+            <type>int</type>
+            <info>Identifier of an edge type.</info>
+        </parameter>
+    </parameters>
+</method>
+<method>
+    <name>createNode(int x, int y)</name>
+    <description>
+        <para>Create node at position (x,y).</para>
+    </description>
+    <returnType>Node</returnType>
+    <parameters>
+        <parameter>
+            <name>x</name>
+            <type>int</type>
+            <info>X-coordinate of the node.</info>
+        </parameter>
+        <parameter>
+            <name>y</name>
+            <type>int</type>
+            <info>Y-coordinate of the node.</info>
+        </parameter>
+    </parameters>
+</method>
+<method>
+    <name>createEdge(from, to)</name>
+    <description>
+        <para>Create edge between the given nodes of default edge type.</para>
+    </description>
+    <returnType>Edge</returnType>
+    <parameters>
+        <parameter>
+            <name>from</name>
+            <type>Node</type>
+            <info>Start node of the edge.</info>
+        </parameter>
+        <parameter>
+            <name>to</name>
+            <type>Node</type>
+            <info>Target node of the edge.</info>
+        </parameter>
+    </parameters>
+</method>
+<method>
+    <name>remove(node)</name>
+    <description>
+        <para>Delete the given node.</para>
+    </description>
+    <returnType>void</returnType>
+    <parameters>
+        <parameter>
+            <name>node</name>
+            <type>Node</type>
+            <info>The node to be deleted.</info>
+        </parameter>
+    </parameters>
+</method>
+<method>
+    <name>remove(edge)</name>
+    <description>
+        <para>Delete the given edge.</para>
+    </description>
+    <returnType>void</returnType>
+    <parameters>
+        <parameter>
+            <name>edge</name>
+            <type>Edge</type>
+            <info>The edge to be deleted.</info>
+        </parameter>
+    </parameters>
+</method>
+</methods>
+</object>

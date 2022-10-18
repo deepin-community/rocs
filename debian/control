@@ -1,0 +1,49 @@
+Source: rocs
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Norbert Preining <norbert@preining.info>,
+           Pino Toscano <pino@debian.org>,
+Build-Depends: cmake (>= 3.3.0~),
+               debhelper-compat (= 13),
+               extra-cmake-modules (>= 5.40.0~),
+               gettext,
+               libboost-dev (>= 1.49~),
+               libboost-graph-dev,
+               libgrantlee5-dev (>= 5.0.0~),
+               libkf5archive-dev (>= 5.17.0~),
+               libkf5config-dev (>= 5.17.0~),
+               libkf5coreaddons-dev (>= 5.17.0~),
+               libkf5crash-dev (>= 5.17.0~),
+               libkf5doctools-dev (>= 5.17.0~),
+               libkf5i18n-dev (>= 5.17.0~),
+               libkf5itemviews-dev (>= 5.17.0~),
+               libkf5texteditor-dev (>= 5.17.0~),
+               libkf5xmlgui-dev (>= 5.17.0~),
+               libqt5svg5-dev (>= 5.11.0~),
+               libqt5xmlpatterns5-dev (>= 5.11.0~),
+               pkg-kde-tools (>> 0.15.17.0),
+               qtbase5-dev (>= 5.11.0~),
+               qtdeclarative5-dev (>= 5.11.0~),
+               qtscript5-dev (>= 5.11.0~),
+Standards-Version: 4.5.1
+Rules-Requires-Root: no
+Homepage: https://projects.kde.org/projects/kde/kdeedu/rocs
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/rocs.git
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/rocs
+
+Package: rocs
+Architecture: any
+Section: math
+Depends: qml-module-qtqml-statemachine, ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
+Description: graph theory IDE
+ Rocs aims to be a Graph Theory IDE for helping professors to show the results
+ of a graph algorithm and also helping students to do the algorithms.
+ .
+ Rocs has a scripting module, done in Qt Script, that interacts with the drawn
+ graph and every change in the graph with the script is reflected on the drawn
+ one.
+ .
+ This package is part of the KDE education module.

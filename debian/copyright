@@ -1,0 +1,771 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: rocs
+Source: git://anongit.kde.org/rocs.git
+Upstream-Contact: kde-devel@kde.org
+
+Files: *
+Copyright: 2011-2013, Andreas Cord-Landwehr <cola@uni-paderborn.de>
+           2011-2014, Andreas Cord-Landwehr <cordlandwehr@kde.org>
+           2011-2012, Andreas Cord-Landwehr <phoenixx@uni-paderborn.de>
+           2010, Andrius da Costa Ribas <andriusmao@gmail.com>
+           1989-1991, Free Software Foundation, Inc
+           2004-2011, Tomaz Canabrava <tomaz.canabrava@gmail.com>
+           2008, Ugo Sangiori <ugorox@gmail.com>
+           2009-2012, Wagner Reck <wagner.reck@gmail.com>
+License: GPL-2+
+
+Files: libgraphtheory/autotests/test_graphoperations.cpp
+       libgraphtheory/autotests/test_graphoperations.h
+       libgraphtheory/autotests/test_kernel.cpp
+       libgraphtheory/autotests/test_kernel.h
+       libgraphtheory/autotests/test_kernelscriptapi.cpp
+       libgraphtheory/autotests/test_kernelscriptapi.h
+       libgraphtheory/dialogs/edgeproperties.cpp
+       libgraphtheory/dialogs/edgeproperties.h
+       libgraphtheory/dialogs/edgetypeproperties.cpp
+       libgraphtheory/dialogs/edgetypeproperties.h
+       libgraphtheory/dialogs/nodeproperties.cpp
+       libgraphtheory/dialogs/nodeproperties.h
+       libgraphtheory/dialogs/nodetypeproperties.cpp
+       libgraphtheory/dialogs/nodetypeproperties.h
+       libgraphtheory/dialogs/propertydelegate.cpp
+       libgraphtheory/dialogs/propertydelegate.h
+       libgraphtheory/edge.cpp
+       libgraphtheory/edge.h
+       libgraphtheory/edgetype.cpp
+       libgraphtheory/edgetype.h
+       libgraphtheory/edgetypestyle.cpp
+       libgraphtheory/edgetypestyle.h
+       libgraphtheory/editor.cpp
+       libgraphtheory/editor.h
+       libgraphtheory/editorplugins/assignvalues/assignvaluesplugin.cpp
+       libgraphtheory/editorplugins/assignvalues/assignvaluesplugin.h
+       libgraphtheory/editorplugins/assignvalues/assignvalueswidget.cpp
+       libgraphtheory/editorplugins/assignvalues/assignvalueswidget.h
+       libgraphtheory/editorplugins/editorplugininterface.cpp
+       libgraphtheory/editorplugins/editorplugininterface.h
+       libgraphtheory/editorplugins/editorpluginmanager.cpp
+       libgraphtheory/editorplugins/editorpluginmanager.h
+       libgraphtheory/editorplugins/generategraph/generategraphplugin.cpp
+       libgraphtheory/editorplugins/generategraph/generategraphplugin.h
+       libgraphtheory/editorplugins/generategraph/generategraphwidget.cpp
+       libgraphtheory/editorplugins/transformedges/transformedgesplugin.cpp
+       libgraphtheory/editorplugins/transformedges/transformedgesplugin.h
+       libgraphtheory/editorplugins/transformedges/transformedgeswidget.cpp
+       libgraphtheory/editorplugins/transformedges/transformedgeswidget.h
+       libgraphtheory/fileformats/fileformatinterface.cpp
+       libgraphtheory/fileformats/fileformatinterface.h
+       libgraphtheory/fileformats/fileformatmanager.cpp
+       libgraphtheory/fileformats/fileformatmanager.h
+       libgraphtheory/fileformats/rocs1/autotests/testrocs1fileformat.cpp
+       libgraphtheory/fileformats/rocs1/autotests/testrocs1fileformat.h
+       libgraphtheory/fileformats/rocs2/autotests/testrocs2fileformat.cpp
+       libgraphtheory/fileformats/rocs2/autotests/testrocs2fileformat.h
+       libgraphtheory/fileformats/rocs2/rocs2fileformat.cpp
+       libgraphtheory/fileformats/rocs2/rocs2fileformat.h
+       libgraphtheory/fileformats/tgf/autotests/testtgffileformat.cpp
+       libgraphtheory/fileformats/tgf/autotests/testtgffileformat.h
+       libgraphtheory/fileformats/tikz/autotests/testtikzfileformat.cpp
+       libgraphtheory/fileformats/tikz/autotests/testtikzfileformat.h
+       libgraphtheory/fileformats/tikz/tikzfileformat.cpp
+       libgraphtheory/fileformats/tikz/tikzfileformat.h
+       libgraphtheory/graphdocument.cpp
+       libgraphtheory/graphdocument.h
+       libgraphtheory/kernel/documentwrapper.cpp
+       libgraphtheory/kernel/documentwrapper.h
+       libgraphtheory/kernel/edgewrapper.cpp
+       libgraphtheory/kernel/edgewrapper.h
+       libgraphtheory/kernel/kernel.cpp
+       libgraphtheory/kernel/kernel.h
+       libgraphtheory/kernel/modules/console/consolemodule.cpp
+       libgraphtheory/kernel/modules/console/consolemodule.h
+       libgraphtheory/kernel/nodewrapper.cpp
+       libgraphtheory/kernel/nodewrapper.h
+       libgraphtheory/libgraphtheoryexport.h
+       libgraphtheory/models/edgemodel.cpp
+       libgraphtheory/models/edgemodel.h
+       libgraphtheory/models/edgepropertymodel.cpp
+       libgraphtheory/models/edgepropertymodel.h
+       libgraphtheory/models/edgetypemodel.cpp
+       libgraphtheory/models/edgetypemodel.h
+       libgraphtheory/models/edgetypepropertymodel.cpp
+       libgraphtheory/models/edgetypepropertymodel.h
+       libgraphtheory/models/nodemodel.cpp
+       libgraphtheory/models/nodemodel.h
+       libgraphtheory/models/nodepropertymodel.cpp
+       libgraphtheory/models/nodepropertymodel.h
+       libgraphtheory/models/nodetypemodel.cpp
+       libgraphtheory/models/nodetypemodel.h
+       libgraphtheory/models/nodetypepropertymodel.cpp
+       libgraphtheory/models/nodetypepropertymodel.h
+       libgraphtheory/modifiers/topology.cpp
+       libgraphtheory/modifiers/topology.h
+       libgraphtheory/modifiers/valueassign.cpp
+       libgraphtheory/modifiers/valueassign.h
+       libgraphtheory/node.cpp
+       libgraphtheory/node.h
+       libgraphtheory/nodetype.cpp
+       libgraphtheory/nodetype.h
+       libgraphtheory/nodetypestyle.cpp
+       libgraphtheory/nodetypestyle.h
+       libgraphtheory/qml/AddEdgeAction.qml
+       libgraphtheory/qml/AddNodeAction.qml
+       libgraphtheory/qml/DeleteAction.qml
+       libgraphtheory/qml/EdgePropertyItem.qml
+       libgraphtheory/qml/Line.qml
+       libgraphtheory/qml/NodePropertyItem.qml
+       libgraphtheory/qml/Scene.qml
+       libgraphtheory/qml/SelectMoveAction.qml
+       libgraphtheory/qml/SelectionRectangle.qml
+       libgraphtheory/qtquickitems/edgeitem.cpp
+       libgraphtheory/qtquickitems/edgeitem.h
+       libgraphtheory/qtquickitems/nodeitem.cpp
+       libgraphtheory/qtquickitems/nodeitem.h
+       libgraphtheory/qtquickitems/qsgarrowheadnode.cpp
+       libgraphtheory/qtquickitems/qsgarrowheadnode.h
+       libgraphtheory/qtquickitems/qsglinenode.cpp
+       libgraphtheory/qtquickitems/qsglinenode.h
+       libgraphtheory/tests/scenetest.cpp
+       libgraphtheory/typenames.h
+       libgraphtheory/view.cpp
+       libgraphtheory/view.h
+       src/autotests/test_project.cpp
+       src/autotests/test_project.h
+       src/project/project.cpp
+       src/project/project.h
+       src/ui/documenttypeswidget.cpp
+       src/ui/documenttypeswidget.h
+       src/ui/edgetypesdelegate.cpp
+       src/ui/edgetypesdelegate.h
+       src/ui/nodetypesdelegate.cpp
+       src/ui/nodetypesdelegate.h
+Copyright: 2011-2015, Andreas Cord-Landwehr <cordlandwehr@kde.org>
+License: LGPL-2.1+3+KDEeV
+
+Files: RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/KW91.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/Latin1.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/NaN.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/abstract.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/alf.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/arrows.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/awilliams.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/clust.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/clust1.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/clust2.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/clust3.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/clust4.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/clust5.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/crazy.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/ctext.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/dfa.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/fig6.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/fsm.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/grammar.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/hashtable.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/honda-tokoro.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/japanese.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/jcctree.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/jsort.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/ldbxtried.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/longflat.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/mike.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/nhg.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/oldarrows.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/pgram.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/pm2way.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/pmpipe.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/polypoly.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/proc3d.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/psfonttest.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/record2.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/records.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/rowe.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/russian.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/sdh.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/shells.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/states.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/structs.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/switch.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/table.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/train11.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/trapeziumlr.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/tree.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/triedds.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/try.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/unix.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/unix2.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/viewfile.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/directed/world.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/undirected/ER.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/undirected/Heawood.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/undirected/Petersen.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/undirected/ngk10_4.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/undirected/process.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/KW91.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/Latin1.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/NaN.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/abstract.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/alf.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/arrows.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/awilliams.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/clust.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/clust1.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/clust2.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/clust3.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/clust4.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/clust5.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/crazy.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/ctext.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/dfa.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/fig6.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/fsm.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/grammar.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/hashtable.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/honda-tokoro.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/japanese.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/jcctree.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/jsort.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/ldbxtried.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/longflat.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/mike.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/nhg.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/oldarrows.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/pgram.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/pm2way.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/pmpipe.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/polypoly.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/proc3d.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/psfonttest.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/record2.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/records.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/rowe.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/russian.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/sdh.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/shells.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/states.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/structs.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/switch.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/table.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/train11.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/trapeziumlr.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/tree.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/triedds.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/try.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/unix.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/unix2.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/viewfile.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/directed/world.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/undirected/ER.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/undirected/Heawood.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/undirected/Petersen.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/undirected/ngk10_4.gv
+       libgraphtheory/fileformats/dot/autotests/testfiles/undirected/process.gv
+       RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/README
+       libgraphtheory/fileformats/dot/autotests/testfiles/README
+Copyright: 2011, AT&T Intellectual Property
+License: EPL-1
+Comment:
+ License(s) from:
+ RocsCore/LoadSave/Plugins/dotFileFormat/Tests/TestGraphs/COPYING.TESTDATA.EPL-1
+ libgraphtheory/fileformats/dot/autotests/testfiles/COPYING.TESTDATA.EPL-1
+ .
+ Copyright Notice for Test Graphs
+ ================================
+ .
+ This folder contains original test data from the Graphviz project as
+ published at http://www.graphviz.org along with version 2.28.0. The files are
+ published under the EPL 1.0, see COPYING.TESTDATA for the full license.
+ .
+ As the license is _incompatible_ with GPL 2+, the supported test graphs are
+ only used as input data for the automatic unit tests; they are explicitly not
+ linked or imported to the program binaries or libraries.
+
+Files: App/InterfacePlugins/ApiDoc/ApiDocWidget.h
+       RocsCore/Data.cpp
+       RocsCore/Data.h
+       RocsCore/DataStructure.cpp
+       RocsCore/DataStructure.h
+       RocsCore/DataStructures/Graph/GraphNode.cpp
+       RocsCore/DataStructures/Graph/GraphNode.h
+       RocsCore/DataType.cpp
+       RocsCore/DataType.h
+       RocsCore/EngineModules/Console/ConsoleModule.cpp
+       RocsCore/EngineModules/Console/ConsoleModule.h
+       RocsCore/KrossBackend.cpp
+       RocsCore/KrossBackend.h
+       RocsCore/Pointer.cpp
+       RocsCore/Pointer.h
+       RocsCore/PointerType.cpp
+       RocsCore/PointerType.h
+       RocsCore/QtScriptBackend.cpp
+       RocsCore/QtScriptBackend.h
+       VisualEditor/Actions/PropertiesDialogAction.cpp
+       VisualEditor/Actions/PropertiesDialogAction.h
+       VisualEditor/Actions/ZoomAction.cpp
+       VisualEditor/Actions/ZoomAction.h
+       VisualEditor/Scene/GraphScene.cpp
+       VisualEditor/Scene/GraphScene.h
+       VisualEditor/Tools/ToolsPluginInterface.cpp
+Copyright: 2011-2013, Andreas Cord-Landwehr <cola@uni-paderborn.de>
+           2001-2002, Duncan Mac-Vicar Prett <duncan@kde.org>
+           1991-1999, Free Software Foundation, Inc
+           2002-2004, Olivier Goffart <ogoffart@kde.org>
+           2004-2011, Tomaz Canabrava <tomaz.canabrava@gmail.com>
+           2010-2011, Wagner Reck <wagner.reck@gmail.com>
+License: LGPL-2.1+
+
+Files: doc/CMakeLists.txt
+       icons/CMakeLists.txt
+       libgraphtheory/CMakeLists.txt
+       libgraphtheory/autotests/CMakeLists.txt
+       libgraphtheory/editorplugins/CMakeLists.txt
+       libgraphtheory/editorplugins/assignvalues/CMakeLists.txt
+       libgraphtheory/editorplugins/generategraph/CMakeLists.txt
+       libgraphtheory/editorplugins/transformedges/CMakeLists.txt
+       libgraphtheory/fileformats/CMakeLists.txt
+       libgraphtheory/fileformats/dot/CMakeLists.txt
+       libgraphtheory/fileformats/dot/autotests/CMakeLists.txt
+       libgraphtheory/fileformats/gml/CMakeLists.txt
+       libgraphtheory/fileformats/gml/autotests/CMakeLists.txt
+       libgraphtheory/fileformats/rocs1/CMakeLists.txt
+       libgraphtheory/fileformats/rocs1/autotests/CMakeLists.txt
+       libgraphtheory/fileformats/rocs2/CMakeLists.txt
+       libgraphtheory/fileformats/rocs2/autotests/CMakeLists.txt
+       libgraphtheory/fileformats/tgf/CMakeLists.txt
+       libgraphtheory/fileformats/tgf/autotests/CMakeLists.txt
+       libgraphtheory/fileformats/tikz/CMakeLists.txt
+       libgraphtheory/fileformats/tikz/autotests/CMakeLists.txt
+       libgraphtheory/kernel/CMakeLists.txt
+       libgraphtheory/qml/CMakeLists.txt
+       libgraphtheory/tests/CMakeLists.txt
+       src/autotests/CMakeLists.txt
+       src/plugins/scriptapi/CMakeLists.txt
+       src/plugins/scriptapi/html/CMakeLists.txt
+Copyright: 2012-2014, Andreas Cord-Landwehr <cordlandwehr@kde.org>
+License: BSD-2-clause
+
+Files: libgraphtheory/dialogs/propertieswidget.cpp
+       libgraphtheory/dialogs/propertieswidget.h
+       src/plugins/scriptapi/method.cpp
+       src/plugins/scriptapi/method.h
+       src/plugins/scriptapi/object.cpp
+       src/plugins/scriptapi/object.h
+       src/plugins/scriptapi/parameter.cpp
+       src/plugins/scriptapi/parameter.h
+       src/plugins/scriptapi/property.cpp
+       src/plugins/scriptapi/property.h
+       src/plugins/scriptapi/scriptapimanager.cpp
+       src/plugins/scriptapi/scriptapimanager.h
+       src/plugins/scriptapi/scriptapimodel.cpp
+       src/plugins/scriptapi/scriptapimodel.h
+       src/plugins/scriptapi/scriptapiwidget.cpp
+       src/plugins/scriptapi/scriptapiwidget.h
+       src/ui/codeeditorwidget.cpp
+       src/ui/codeeditorwidget.h
+       src/ui/grapheditorwidget.cpp
+       src/ui/grapheditorwidget.h
+       src/ui/journalwidget.cpp
+       src/ui/journalwidget.h
+       src/ui/scriptoutputwidget.cpp
+       src/ui/scriptoutputwidget.h
+       src/ui/sidedockwidget.cpp
+       src/ui/sidedockwidget.h
+Copyright: 2012-2015, Andreas Cord-Landwehr <cordlandwehr@kde.org>
+License: GPL-2+3+KDEeV
+
+Files: RocsCore/LoadSave/Plugins/dotFileFormat/DotGraphParsingHelper.cpp
+       RocsCore/LoadSave/Plugins/dotFileFormat/DotGraphParsingHelper.h
+       RocsCore/LoadSave/Plugins/gmlFileFormat/GmlGraphParsingHelper.cpp
+       RocsCore/LoadSave/Plugins/gmlFileFormat/GmlGraphParsingHelper.h
+       libgraphtheory/fileformats/dot/dotgrammarhelper.cpp
+       libgraphtheory/fileformats/dot/dotgrammarhelper.h
+       libgraphtheory/fileformats/gml/gmlgrammarhelper.cpp
+       libgraphtheory/fileformats/gml/gmlgrammarhelper.h
+Copyright: 2012, Andreas Cord-Landwehr <cola@uni-paderborn.de>
+           2012-2014, Andreas Cord-Landwehr <cordlandwehr@kde.org>
+           2006-2007, Gael de Chalendar <kleag@free.fr>
+License: GPL-2
+
+Files: App/InterfacePlugins/ApiDoc/HtmlView/bootstrap-apiview.css
+       App/InterfacePlugins/ApiDoc/HtmlView/objectApi.html
+       App/InterfacePlugins/ApiDoc/HtmlView/overview.html
+       src/plugins/scriptapi/html/bootstrap-apiview.css
+       src/plugins/scriptapi/html/objectApi.html
+       src/plugins/scriptapi/html/overview.html
+Copyright: 2013, Andreas Cord-Landwehr <cola@uni-paderborn.de>
+           2013-2014, Andreas Cord-Landwehr <cordlandwehr@kde.org>
+License: CC-BY-3.0
+ Licensed under the Creative Commons Attribution-Share Alike 3.0 Unported
+ licence available at http://creativecommons.org/licenses/by-sa/3.0/
+
+Files: App/InterfacePlugins/ApiDoc/HtmlView/bootstrap.css
+       src/plugins/scriptapi/html/bootstrap.css
+Copyright: 2013, Twitter, Inc
+License: Apache-2.0
+ Licensed under the Apache License v2.0
+ http://www.apache.org/licenses/LICENSE-2.0
+
+Files: doc/*
+Copyright: 2009, Anne-Marie Mahfouf <annma@kde.org>
+           2011-2015, Andreas Cord-Landwehr <cordlandwehr@googlemail.com>
+           2009, Tomaz Canabrava <tomaz.canabrava@gmail.com>
+License: GFDL-NIV-1.2+
+
+Files: debian/*
+Copyright: 2011 Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+           2012 Pino Toscano <pino@debian.org>
+License: GPL-2+
+
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: EPL-1
+    THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS ECLIPSE
+    PUBLIC LICENSE ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF
+    THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
+ .
+    1. DEFINITIONS
+ .
+    "Contribution" means:
+ .
+    a) in the case of the initial Contributor, the initial code and
+    documentation distributed under this Agreement, and
+ .
+    b) in the case of each subsequent Contributor:
+ .
+    i) changes to the Program, and
+ .
+    ii) additions to the Program;
+ .
+    where such changes and/or additions to the Program originate from and
+    are distributed by that particular Contributor. A Contribution
+    'originates' from a Contributor if it was added to the Program by such
+    Contributor itself or anyone acting on such Contributor's behalf.
+    Contributions do not include additions to the Program which: (i) are
+    separate modules of software distributed in conjunction with the
+    Program under their own license agreement, and (ii) are not derivative
+    works of the Program.
+ .
+    "Contributor" means any person or entity that distributes the Program.
+ .
+    "Licensed Patents" mean patent claims licensable by a Contributor which
+    are necessarily infringed by the use or sale of its Contribution alone
+    or when combined with the Program.
+ .
+    "Program" means the Contributions distributed in accordance with this
+    Agreement.
+ .
+    "Recipient" means anyone who receives the Program under this Agreement,
+    including all Contributors.
+ .
+    2. GRANT OF RIGHTS
+ .
+    a) Subject to the terms of this Agreement, each Contributor hereby
+    grants Recipient a non-exclusive, worldwide, royalty-free copyright
+    license to reproduce, prepare derivative works of, publicly display,
+    publicly perform, distribute and sublicense the Contribution of such
+    Contributor, if any, and such derivative works, in source code and
+    object code form.
+ .
+    b) Subject to the terms of this Agreement, each Contributor hereby
+    grants Recipient a non-exclusive, worldwide, royalty-free patent
+    license under Licensed Patents to make, use, sell, offer to sell,
+    import and otherwise transfer the Contribution of such Contributor, if
+    any, in source code and object code form. This patent license shall
+    apply to the combination of the Contribution and the Program if, at the
+    time the Contribution is added by the Contributor, such addition of the
+    Contribution causes such combination to be covered by the Licensed
+    Patents. The patent license shall not apply to any other combinations
+    which include the Contribution. No hardware per se is licensed
+    hereunder.
+ .
+    c) Recipient understands that although each Contributor grants the
+    licenses to its Contributions set forth herein, no assurances are
+    provided by any Contributor that the Program does not infringe the
+    patent or other intellectual property rights of any other entity. Each
+    Contributor disclaims any liability to Recipient for claims brought by
+    any other entity based on infringement of intellectual property rights
+    or otherwise. As a condition to exercising the rights and licenses
+    granted hereunder, each Recipient hereby assumes sole responsibility to
+    secure any other intellectual property rights needed, if any. For
+    example, if a third party patent license is required to allow Recipient
+    to distribute the Program, it is Recipient's responsibility to acquire
+    that license before distributing the Program.
+ .
+    d) Each Contributor represents that to its knowledge it has sufficient
+    copyright rights in its Contribution, if any, to grant the copyright
+    license set forth in this Agreement.
+ .
+    3. REQUIREMENTS
+ .
+    A Contributor may choose to distribute the Program in object code form
+    under its own license agreement, provided that:
+ .
+    a) it complies with the terms and conditions of this Agreement; and
+ .
+    b) its license agreement:
+ .
+    i) effectively disclaims on behalf of all Contributors all warranties
+    and conditions, express and implied, including warranties or conditions
+    of title and non-infringement, and implied warranties or conditions of
+    merchantability and fitness for a particular purpose;
+ .
+    ii) effectively excludes on behalf of all Contributors all liability
+    for damages, including direct, indirect, special, incidental and
+    consequential damages, such as lost profits;
+ .
+    iii) states that any provisions which differ from this Agreement are
+    offered by that Contributor alone and not by any other party; and
+ .
+    iv) states that source code for the Program is available from such
+    Contributor, and informs licensees how to obtain it in a reasonable
+    manner on or through a medium customarily used for software exchange.
+ .
+    When the Program is made available in source code form:
+ .
+    a) it must be made available under this Agreement; and
+ .
+    b) a copy of this Agreement must be included with each copy of the
+    Program.
+ .
+    Contributors may not remove or alter any copyright notices contained
+    within the Program.
+ .
+    Each Contributor must identify itself as the originator of its
+    Contribution, if any, in a manner that reasonably allows subsequent
+    Recipients to identify the originator of the Contribution.
+ .
+    4. COMMERCIAL DISTRIBUTION
+ .
+    Commercial distributors of software may accept certain responsibilities
+    with respect to end users, business partners and the like. While this
+    license is intended to facilitate the commercial use of the Program,
+    the Contributor who includes the Program in a commercial product
+    offering should do so in a manner which does not create potential
+    liability for other Contributors. Therefore, if a Contributor includes
+    the Program in a commercial product offering, such Contributor
+    ("Commercial Contributor") hereby agrees to defend and indemnify every
+    other Contributor ("Indemnified Contributor") against any losses,
+    damages and costs (collectively "Losses") arising from claims, lawsuits
+    and other legal actions brought by a third party against the
+    Indemnified Contributor to the extent caused by the acts or omissions
+    of such Commercial Contributor in connection with its distribution of
+    the Program in a commercial product offering. The obligations in this
+    section do not apply to any claims or Losses relating to any actual or
+    alleged intellectual property infringement. In order to qualify, an
+    Indemnified Contributor must: a) promptly notify the Commercial
+    Contributor in writing of such claim, and b) allow the Commercial
+    Contributor to control, and cooperate with the Commercial Contributor
+    in, the defense and any related settlement negotiations. The
+    Indemnified Contributor may participate in any such claim at its own
+    expense.
+ .
+    For example, a Contributor might include the Program in a commercial
+    product offering, Product X. That Contributor is then a Commercial
+    Contributor. If that Commercial Contributor then makes performance
+    claims, or offers warranties related to Product X, those performance
+    claims and warranties are such Commercial Contributor's responsibility
+    alone. Under this section, the Commercial Contributor would have to
+    defend claims against the other Contributors related to those
+    performance claims and warranties, and if a court requires any other
+    Contributor to pay any damages as a result, the Commercial Contributor
+    must pay those damages.
+ .
+    5. NO WARRANTY
+ .
+    EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, THE PROGRAM IS
+    PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY
+    WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY OR
+    FITNESS FOR A PARTICULAR PURPOSE. Each Recipient is solely responsible
+    for determining the appropriateness of using and distributing the
+    Program and assumes all risks associated with its exercise of rights
+    under this Agreement , including but not limited to the risks and costs
+    of program errors, compliance with applicable laws, damage to or loss
+    of data, programs or equipment, and unavailability or interruption of
+    operations.
+ .
+    6. DISCLAIMER OF LIABILITY
+ .
+    EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, NEITHER RECIPIENT NOR
+    ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT,
+    INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING
+    WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED AND ON ANY THEORY OF
+    LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+    NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OR
+    DISTRIBUTION OF THE PROGRAM OR THE EXERCISE OF ANY RIGHTS GRANTED
+    HEREUNDER, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+ .
+    7. GENERAL
+ .
+    If any provision of this Agreement is invalid or unenforceable under
+    applicable law, it shall not affect the validity or enforceability of
+    the remainder of the terms of this Agreement, and without further
+    action by the parties hereto, such provision shall be reformed to the
+    minimum extent necessary to make such provision valid and enforceable.
+ .
+    If Recipient institutes patent litigation against any entity (including
+    a cross-claim or counterclaim in a lawsuit) alleging that the Program
+    itself (excluding combinations of the Program with other software or
+    hardware) infringes such Recipient's patent(s), then such Recipient's
+    rights granted under Section 2(b) shall terminate as of the date such
+    litigation is filed.
+ .
+    All Recipient's rights under this Agreement shall terminate if it fails
+    to comply with any of the material terms or conditions of this
+    Agreement and does not cure such failure in a reasonable period of time
+    after becoming aware of such noncompliance. If all Recipient's rights
+    under this Agreement terminate, Recipient agrees to cease use and
+    distribution of the Program as soon as reasonably practicable. However,
+    Recipient's obligations under this Agreement and any licenses granted
+    by Recipient relating to the Program shall continue and survive.
+ .
+    Everyone is permitted to copy and distribute copies of this Agreement,
+    but in order to avoid inconsistency the Agreement is copyrighted and
+    may only be modified in the following manner. The Agreement Steward
+    reserves the right to publish new versions (including revisions) of
+    this Agreement from time to time. No one other than the Agreement
+    Steward has the right to modify this Agreement. The Eclipse Foundation
+    is the initial Agreement Steward. The Eclipse Foundation may assign the
+    responsibility to serve as the Agreement Steward to a suitable separate
+    entity. Each new version of the Agreement will be given a
+    distinguishing version number. The Program (including Contributions)
+    may always be distributed subject to the version of the Agreement under
+    which it was received. In addition, after a new version of the
+    Agreement is published, Contributor may elect to distribute the Program
+    (including its Contributions) under the new version. Except as
+    expressly stated in Sections 2(a) and 2(b) above, Recipient receives no
+    rights or licenses to the intellectual property of any Contributor
+    under this Agreement, whether expressly, by implication, estoppel or
+    otherwise. All rights in the Program not expressly granted under this
+    Agreement are reserved.
+ .
+    This Agreement is governed by the laws of the State of New York and the
+    intellectual property laws of the United States of America. No party to
+    this Agreement will bring a legal action under this Agreement more than
+    one year after the cause of action arose. Each party waives its rights
+    to a jury trial in any resulting litigation.
+
+License: GFDL-NIV-1.2+
+ Permission is granted to copy, distribute and/or modify this document under
+ the terms of the GNU Free Documentation License, Version 1.2 or any later
+ version published by the Free Software Foundation; with no Invariant
+ Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ .
+ On Debian systems, the complete text of the GNU Free Documentation License
+ version 1.2 can be found in `/usr/share/common-licenses/GFDL-1.2'.
+
+License: GPL-2
+ KGraphViewer is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public
+ License as published by the Free Software Foundation, version 2.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ 02110-1301, USA
+ -
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GPL-2+3+KDEeV
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License or (at your option) version 3 or any later version
+ accepted by the membership of KDE e.V. (or its successor approved
+ by the membership of KDE e.V.), which shall act as a proxy
+ defined in Section 14 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in `/usr/share/common-licenses/GPL-2', likewise,
+ the complete text of the GNU General Public License version 3 can be
+ found in `/usr/share/common-licenses/GPL-3'.
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.
+
+License: LGPL-2.1+3+KDEeV
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) version 3, or any
+ later version accepted by the membership of KDE e.V. (or its
+ successor approved by the membership of KDE e.V.), which shall
+ act as a proxy defined in Section 6 of version 3 of the license.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1', likewise,
+ the complete text of the GNU Lesser General Public License version 3 can be
+ found in `/usr/share/common-licenses/LGPL-3'.

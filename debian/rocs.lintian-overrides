@@ -1,0 +1,4 @@
+# private library
+rocs: package-name-doesnt-match-sonames librocsgraphtheory0
+# private library
+rocs: no-symbols-control-file
